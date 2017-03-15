@@ -1,8 +1,14 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class ScrabbleScore {
 
-  public Integer calculateScore(String letter){
-    Integer result = 0;
-    return result;
-  }
+  Integer result = 0;
 
+  public Integer calculateScore(String letter){
+    if (letter.equals("a")) {
+      result = 1;
+    }
+  return result;
+  }
 }
