@@ -15,4 +15,11 @@ import static org.junit.Assert.*;
       Integer expected = 1;
       assertEquals(expected, testScrabble.calculateScore("e"));
     }
+
+    @Test
+    public void calculateScore_returnsScoreForArrayOfLetters_2() {
+      ScrabbleScore testScrabble = new ScrabbleScore();
+      Integer expected = 2;
+      assertEquals(expected, testScrabble.calculateScore("d"));
+    }
   }
