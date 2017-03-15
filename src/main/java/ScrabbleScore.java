@@ -3,13 +3,16 @@ import java.util.List;
 
 public class ScrabbleScore {
   //
-  // String[] letterValue1 = {"a", "e", "i", "o", "u", "l", "n", "r", "s", "t"};
+  String[] letterValue1 = {"a", "e", "i", "o", "u", "l", "n", "r", "s", "t"};
+
   Integer result = 0;
 
   public Integer calculateScore(String letter){
-    if (letter.equals("a")) {
-      result = 1;
+    for ( String eachLetterValue1 : letterValue1 ) {
+      if (eachLetterValue1.equals(letter)) {
+        result = 1;
+      }
     }
-  return result;
+    return result;
   }
 }
