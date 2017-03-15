@@ -8,4 +8,11 @@ import static org.junit.Assert.*;
       Integer expected = 1;
       assertEquals(expected, testScrabble.calculateScore("a"));
     }
+
+    @Test
+    public void calculateScore_returnsScoreForArrayOfLetters_1() {
+      ScrabbleScore testScrabble = new ScrabbleScore();
+      Integer expected = 1;
+      assertEquals(expected, testScrabble.calculateScore("e"));
+    }
   }
