@@ -9,12 +9,12 @@ import static org.junit.Assert.*;
       assertEquals(expected, testScrabble.calculateScore("a"));
     }
 
-    // @Test
-    // public void calculateScore_returnsScoreForArrayOfLetters_1() {
-    //   ScrabbleScore testScrabble = new ScrabbleScore();
-    //   Integer expected = 1;
-    //   assertEquals(expected, testScrabble.calculateScore("e"));
-    // }
+    @Test
+    public void calculateScore_returnsScoreForArrayOfLetters_1() {
+      ScrabbleScore testScrabble = new ScrabbleScore();
+      int expected = 3;
+      assertEquals(expected, testScrabble.calculateScore("b"));
+    }
 
     // @Test
     // public void calculateScore_returnsScoreForArrayOfLetters_2() {

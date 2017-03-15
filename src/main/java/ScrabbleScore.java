@@ -3,11 +3,9 @@ import java.util.List;
 
 public class ScrabbleScore {
 
-  String[] letters = {"a", "b"}; //go to z
+  String[] letters = {"a", "b"};
   Integer[] scores = {1, 3};
-  // String[] letterValue2 = {"d", "g"};
 
-  // Integer result = 0;
 
   public int calculateScore(String input){
     int totalScore = 0;
