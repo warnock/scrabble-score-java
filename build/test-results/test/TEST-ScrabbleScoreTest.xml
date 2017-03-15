@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ScrabbleScoreTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2017-03-15T18:45:21" hostname="Epicodus-5D.local" time="0.003">
+<testsuite name="ScrabbleScoreTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-03-15T23:07:05" hostname="Epicodus-5D.local" time="0.001">
   <properties/>
-  <testcase name="calculateScore_returnsScoreForSingleLetter_1" classname="ScrabbleScoreTest" time="0.001"/>
-  <testcase name="calculateScore_returnsScoreForArrayOfLetters_1" classname="ScrabbleScoreTest" time="0.0"/>
-  <testcase name="calculateScore_returnsScoreForArrayOfLetters_2" classname="ScrabbleScoreTest" time="0.001">
-    <failure message="java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;0&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at ScrabbleScoreTest.calculateScore_returnsScoreForArrayOfLetters_2(ScrabbleScoreTest.java:23)
+  <testcase name="calculateScore_returnsScoreForSingleLetter_1" classname="ScrabbleScoreTest" time="0.001">
+    <failure message="java.lang.ArrayIndexOutOfBoundsException: 2" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: 2
+	at ScrabbleScore.calculateScore(ScrabbleScore.java:17)
+	at ScrabbleScoreTest.calculateScore_returnsScoreForSingleLetter_1(ScrabbleScoreTest.java:9)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
