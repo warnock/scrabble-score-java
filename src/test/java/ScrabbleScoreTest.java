@@ -10,16 +10,16 @@ import static org.junit.Assert.*;
     }
 
     @Test
-    public void calculateScore_returnsScoreForArrayOfLetters_1() {
+    public void calculateScore_returnsScoreForArrayOfLetters_3() {
       ScrabbleScore testScrabble = new ScrabbleScore();
       int expected = 3;
       assertEquals(expected, testScrabble.calculateScore("b"));
     }
 
-    // @Test
-    // public void calculateScore_returnsScoreForArrayOfLetters_2() {
-    //   ScrabbleScore testScrabble = new ScrabbleScore();
-    //   Integer expected = 2;
-    //   assertEquals(expected, testScrabble.calculateScore("d"));
-    // }
+    @Test
+    public void calculateScore_returnsScoreForArrayOfLetters_2() {
+      ScrabbleScore testScrabble = new ScrabbleScore();
+      int expected = 2;
+      assertEquals(expected, testScrabble.calculateScore("aa"));
+    }
   }
